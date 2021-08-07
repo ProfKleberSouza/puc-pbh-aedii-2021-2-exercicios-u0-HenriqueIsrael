@@ -14,5 +14,6 @@ int main() {
    } else if(x!=y && y!=z){
          printf("TRIANGULO ESCALENO");
    }
+   
    return 0;
 }
