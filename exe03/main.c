@@ -2,7 +2,9 @@
 
 int main() {
    int n;
+
    scanf("%i", &n);
+
    if(n==0){
       printf("NUMERO NEUTRO\n");
    } else if(n<0 && n%2==0){
@@ -14,5 +16,6 @@ int main() {
    } else if(n>0 && n%2!=0){
       printf("NUMERO IMPAR POSITIVO");
    }
+   
    return 0;
 }
