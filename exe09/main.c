@@ -73,7 +73,7 @@ int main() {
       }
    }
 
-   mediaNotas = (float)totalNotas / (nAlunos);
+   mediaNotas = totalNotas / (nAlunos*1.0);
 
    printf("NOTA MEDIA = %0.1f\n",mediaNotas);
    colocarEmOrdemAlfabetica(Aluno,nAlunos);
